@@ -1,15 +1,45 @@
 # Employee-Management-System
 
-The Employee Management System is a comprehensive web application designed to streamline and enhance the management of employee-related tasks within an organization. This system utilizes a modern and efficient technology stack, including Spring Boot for the backend, Angular for the frontend, and MySQL for the database.
+A robust platform for managing employee records with role-based access and secure authentication.
 
-Technology Stack:
+# Overview
+Our Employee Management System is a robust platform featuring role-based access and a seamless user experience for both Admin and Employee roles. Users can log in using their company email or employment code and password, with backend API verification directing them to their respective dashboards.
 
-Backend:
+Admin users have comprehensive privileges, including creating, updating, and deleting employee records. Their dashboard provides a complete employee list with essential details and actions for managing records. Employee profiles are divided into Personal, Professional, Project, and Finance sections, each with specific validation rules.
 
-Spring Boot: The backend of the Employee Management System is built using Spring Boot, a Java-based framework known for its simplicity and ease of use. Spring Boot provides a robust and scalable foundation for developing enterprise-level applications.
+Personal details capture vital information like name, contact, and emergency contacts, while Professional details focus on employment history and office-related data. Project details include current and previous projects, ensuring complete visibility into an employee's project involvement. The Finance section records financial information and offers employees access to downloadable payslips.
 
-MySQL: The database layer is powered by MySQL, a reliable relational database management system. MySQL is utilized for storing and retrieving employee-related data, ensuring data integrity and efficiency in data management.
+Employee dashboards are view-only, ensuring data integrity by allowing employees to see their details without edit permissions. The system emphasizes security, data accuracy, and user-friendly navigation, making it an essential tool for efficient employee management.
 
-Frontend:
+# Key Features
 
-Angular: The frontend of the application is developed using Angular, a powerful and dynamic front-end framework. Angular facilitates the creation of a responsive and interactive user interface, enabling seamless communication with the backend.
+1. Home Page:
+
+The home page serves as the central hub, providing users with an intuitive and user-friendly interface. It includes quick links to essential features and announcements.
+2. View All Employee:
+
+Users, including administrators, can easily access a comprehensive list of all employees within the organization. The interface allows for efficient sorting, searching, and filtering of employee data.
+3. Add Employee Page:
+
+The system offers a dedicated page for adding new employees, featuring a well-designed form with form validation. This ensures that accurate and complete information is entered for each employee.
+4. Admin Panel:
+
+The admin panel is a secure section accessible only to authorized users. Admins have the authority to manage user roles, access control, and other administrative tasks.
+5. CRUD Operations:
+
+The system supports all essential CRUD (Create, Read, Update, Delete) operations. Users can add new employees, update existing records, delete unnecessary entries, and view detailed information about each employee.
+6. Form Validation:
+
+Robust form validation mechanisms are implemented to ensure the accuracy and completeness of data entered by users. This helps in maintaining data integrity and consistency.
+
+# Technologies Used
+Java
+Spring Boot
+Angular
+MySQL
+Getting Started
+To run this project locally, follow these steps:
+
+Clone this repository.
+Install dependencies.
+Run the application.
