@@ -16,18 +16,23 @@ Employee dashboards are view-only, ensuring data integrity by allowing employees
 1. Home Page:
 
 The home page serves as the central hub, providing users with an intuitive and user-friendly interface. It includes quick links to essential features and announcements.
+
 2. View All Employee:
 
 Users, including administrators, can easily access a comprehensive list of all employees within the organization. The interface allows for efficient sorting, searching, and filtering of employee data.
+
 3. Add Employee Page:
 
 The system offers a dedicated page for adding new employees, featuring a well-designed form with form validation. This ensures that accurate and complete information is entered for each employee.
+
 4. Admin Panel:
 
 The admin panel is a secure section accessible only to authorized users. Admins have the authority to manage user roles, access control, and other administrative tasks.
+
 5. CRUD Operations:
 
 The system supports all essential CRUD (Create, Read, Update, Delete) operations. Users can add new employees, update existing records, delete unnecessary entries, and view detailed information about each employee.
+
 6. Form Validation:
 
 Robust form validation mechanisms are implemented to ensure the accuracy and completeness of data entered by users. This helps in maintaining data integrity and consistency.
